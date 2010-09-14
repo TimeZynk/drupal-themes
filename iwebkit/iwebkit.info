@@ -1,0 +1,17 @@
+; $Id$
+name = iWebKit
+description = Theme for iWebKit engine
+core = 6.x
+engine = phptemplate
+
+; iWebKit framework styles
+stylesheets[screen][] = Framework/css/developer-style.css
+
+; Drupal specific overrides
+stylesheets[all][] = style.css
+
+; iWebKit JavaScript
+scripts[] = Framework/javascript/functions.js
+
+; Only one region supported
+regions[content] = Content

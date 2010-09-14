@@ -1,0 +1,6 @@
+; $Id$
+name = iTimeZynk
+description = Theme for TimeZynk Mobile
+base theme = iwebkit
+core = 6.x
+engine = phptemplate
