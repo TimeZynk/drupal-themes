@@ -6,10 +6,8 @@
   background: transparent;
 }
 
-#block-panels_mini-top_ad_panel {
-  background: white url(../images/ad-bg-1.jpg) no-repeat;
-  height: 300px;
-  width: 958px;
+#preface-top .block .inner {
+  background: white;
   border: 1px solid #dbdbdb;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
@@ -42,6 +40,116 @@
   margin-left: 175px;
   margin-top: 30px;
 }
+
+/**
+ * Theme the front page spotlight view
+ */
+.view-id-spotlight .views_slideshow_singleframe_slide {
+  background: white;
+}
+
+.view-id-spotlight .views-field-title {
+  display: inline;
+  position: absolute;
+  left: 460px;
+  top: 60px;
+  width: 350px;
+  background: white;
+}
+.view-id-spotlight .views-field-title span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.view-id-spotlight .views-field-body {
+  font-weight: normal;
+  display: inline;
+  width: 400px;
+  position: absolute;
+  left: 460px;
+  top: 95px;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: normal;
+  background: white;
+}
+
+.view-id-spotlight .views-field-field-banner-image-fid {
+  float: left;
+  padding: 10px 50px 10px 10px;
+  width: 400px;
+  text-align: center;
+  display: block;
+}
+
+.view-id-spotlight .views-field-field-banner-image-fid a {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.view-id-spotlight .pager-item {
+  margin: 0px;
+  padding: 0px;
+}
+.view-id-spotlight .pager-item a {
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  font-size: 16px;
+  font-weight: normal;
+}
+.view-id-spotlight .pager-item a:hover {
+  background: #ddd;
+  color: #4a4a4a;
+}
+.view-id-spotlight .pager-item.last a {
+  border-right: 1px solid #ddd;
+}
+.view-id-spotlight .pager-item.activeSlide a {
+  background: #ccc;
+  color: #555;
+}
+
+.view-id-spotlight .views-slideshow-controls-bottom {
+  display: block;
+  position: absolute;
+  right: 150px;
+  bottom: 30px;
+  z-index: 10;
+}
+
+
+/**
+ * Theme feature listing
+ */
+.view-product-features .views-field-field-banner-image-fid {
+  float: left;
+  width: 400px;
+  text-align: center;
+}
+
+.view-product-features tr td {
+  padding-bottom: 20px;
+}
+
+.view-product-features tr.row-last td {
+  padding-bottom: 0px;
+}
+
+.view-product-features .views-field-title {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.view-product-features .views-field-body {
+  font-size: 14px;
+  line-height: 150%;
+}
+
 
 dd a, dd a:visited {
   font-weight: normal;
